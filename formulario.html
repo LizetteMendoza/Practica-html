@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" type="text/css"  href="estilos.css">
+</head>
+<body>
+    <h1 class="titulo">Contacto</h1>
+    <div class="nav">
+        <ul class="lista">
+            <li><a href="index.html" class="menu" id="opcion">Inicio</a></li>
+            <li><a href="#" class="menu" id="opcion">Formulario</a></li>
+        </ul>
+    </div>
+    <div class="formulario-contenedor">
+        <form method="GET"  class="formulario" action="#">
+            <h2 class="titulo" id="formulario-titulo">Contacto</h2>
+            <div class="elemento" id="entadas">
+                <label for="nombre">Nombre</label><br>
+                <input type="text" id="nombre" name="nombre"><br>
+            </div>
+            <div class="elemento" id="entadas">
+                <label for="correo">Correo</label><br>
+                <input type="email" id="correo" name="correo"><br>
+            </div>
+            <div class="elemento" id="entadas">
+                <label for="genero">Genero</label><br>
+                <input type="radio" id="mujer" name="genero">
+                <label for="genero">Mujer</label>
+                <input type="radio" id="hombre" name="genero">
+                <label for="genero">Hombre</label>
+            </div>               
+            <div class="elemento" id="entadas">
+                <label for="contraseña">Contraseña</label><br>
+                <input type="password" id="contraseña" name="contraseña"><br>
+            </div>
+            <label for="cometario">Comentario</label><br>
+            <textarea name="cometario" rows="10" cols="30" id="text-area"></textarea><br>
+            <label for="ciudad">Ciudad</label><br>
+            <select name="ciudad"><br>
+                <option >Guadalajara</option>
+                <option >Zapopan</option>
+                <option >Tonalá</option>
+                <option >Otra</option>
+            </select><br>
+            <label for="contacto">Me interesa contactarte</label><br>
+            <input type="checkbox" name="contacto"><br>
+            <button type="submit" value="enviar" name="enviar">Enviar</button>
+        </form>
+    </div>
+
+</body>
+</html>
