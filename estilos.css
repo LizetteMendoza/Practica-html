@@ -1,0 +1,223 @@
+/*Cuerpo de los documentos HTML*/
+
+body{
+    background-color: #ffe4c4;
+    
+}
+
+/*Barra de navegación*/
+.nav{
+    display: flex;
+    background: linear-gradient(#c0378b,#900C78);
+    border: 3px solid #4b3333;
+}
+
+.secciones h3{
+    color:#a7217f;
+    font-weight: 700;
+}
+
+.menu:hover{
+    color:#e26cd8;
+    cursor: pointer;
+ }
+
+ /*Titulo de la página*/
+.titulo{
+  color: #581845;  
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 1000;
+}
+
+/*Las secciones Acerca de mi, conociminetos, fortalezas, proyectos*/
+.secciones{
+    margin-top: 50px;
+    border: 10px solid #7c115c;
+    padding-left: 10px;
+    display: center;
+    margin-left: 40px;
+    margin-right: 20px;
+    background-color: #FAE5D3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+/*Titulos de las secciones*/
+.subtitulo{
+    color: #7e185f;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contenido{
+    margin: 30px;
+    padding-left: 20px;
+}
+
+.lista{
+    display: inline;
+    text-align: center;
+    
+}
+/*Botones de la barra de navegacion*/
+.lista li{
+    display: inline-block;
+    padding: 10px;
+    margin: 10xp 5px;
+    background-color: #c22091;
+    border-bottom: #d8a9bb solid 2px;
+    border-left: #d8a9bb solid 1px;
+    border-radius: 10%;
+   
+}
+
+.lista li a{
+    color: #ffff;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*aceca de mi, conocimientos y formtalezas*/
+.secciones-juntas{
+    display: inline-flex;
+}
+
+.conocimientos{
+    font-weight: 700;
+    color: #a7217f;
+}
+
+.fortalezas{
+    font-weight: 700;
+    color: #a7217f;
+}
+
+#seccion-f{
+    margin-right: 20px;
+    padding-right: 20px;
+}
+
+#seccion-c{
+    margin-right: 20px;
+    padding-right: 20px;
+}
+
+
+table{
+    align-items: center;
+}
+
+
+table,th,td{
+    border: 3px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    border-color: #581845;
+    
+}
+
+th{
+    color: #a7217f;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 1400;
+    background-color: rgb(209, 175, 195);
+}
+td{
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: #ffff;
+}
+
+.chema{
+    border: #581845 solid 5px;
+    border-radius: 15%;
+    float: right;
+    margin-right: 20px;
+    margin-left: 10px;
+    width: 18%;
+}
+ 
+.liga{
+    text-decoration: none;
+    color:#7e185f;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.footer{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    border: 10px solid #7c115c;
+    padding-left: 10px;
+    display: center;
+}
+
+#contacto{
+    box-sizing: 35%;
+    background-color: #eeeae7;
+    margin-top: 30px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+/*--------------------FORMULARIO--------------------------*/
+/* Estilo del formulario*/
+.formulario-contenedor{
+    margin-top: 15px;
+    margin-left: 10px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    border: 5px solid #900C3F;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: #ffff;
+    font-weight: 700;
+    background: linear-gradient(#c0378b,#cc2c69);
+    width: 400px;
+    align-items: center;
+    border-radius: 5%;
+    
+    position: absolute;
+    top: 30%;
+    left: 35%;
+}
+
+.formulario-contenedor{
+    margin-bottom: 10px;
+
+}
+
+#formulario-titulo{
+    text-align: center;
+    color: #e4d0d8;
+    font-weight: 900%;
+    
+}
+
+.elemento input{
+    border: none;
+    border-bottom: #4b3333 solid;
+    border-radius: 10px;
+    padding-bottom: 5px;
+}
+
+#text-area{
+    border: none;
+    border-radius: 5px;
+    border-bottom: #4b3333 solid;
+}
+
+button{
+    background-color:#7e185f;
+    border-radius: 20%;
+    padding: 5px 10px;
+    color: #ffff;
+}
+
+button:hover{
+    color:#ac75a3;
+    cursor: pointer;
+}
